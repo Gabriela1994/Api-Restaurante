@@ -63,13 +63,19 @@ namespace AccesoDatos.Repositorios
         public Ingrediente BuscarIngredientePorId(int idIngrediente)
         {
             Ingrediente ingrediente = new Ingrediente();
+            ingrediente = _context.Ingrediente.Find(idIngrediente);
+            return ingrediente;
+        }
+
+        public void EliminarIngrediente(int IdIngrediente)
+        {
+            Ingrediente ingrediente = BuscarIngredientePorId(IdIngrediente);
 
             using (_context)
             {
-                ingrediente = _context.Ingrediente.Find(idIngrediente);
-                return ingrediente;
+                _context.Ingrediente.Remove(ingrediente);
+                _context.SaveChanges();
             }
-            return ingrediente;
         }
     }
 }

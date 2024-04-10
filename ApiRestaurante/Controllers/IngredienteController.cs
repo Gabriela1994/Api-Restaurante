@@ -83,9 +83,12 @@ namespace ApiRestaurante.Controllers
         }
 
         // GET: IngredienteController/Delete/5
-        public ActionResult Delete(int id)
+        [HttpGet]
+        [Route("api/ingredientes/eliminar")]
+        public void Delete(int id)
         {
-            return View();
+            LogicaIngredientes ingredientes = new LogicaIngredientes(_context);
+            ingredientes.EliminarUnIngrediente(id);
         }
 
         // POST: IngredienteController/Delete/5

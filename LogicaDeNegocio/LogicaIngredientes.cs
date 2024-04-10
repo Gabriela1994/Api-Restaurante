@@ -49,6 +49,11 @@ namespace LogicaDeNegocio
             ingrediente.Stock = data_ingrediente.Stock;
 
             repoIngrediente.EditarUnIngrediente(idIngrediente, ingrediente);
+        }        
+        public void EliminarUnIngrediente(int idIngrediente)
+        {
+            IngredienteRepository repoIngrediente = new IngredienteRepository(_context);
+            repoIngrediente.EliminarIngrediente(idIngrediente);
         }
     }
 }
