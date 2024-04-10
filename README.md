@@ -3,7 +3,7 @@
 <h3>En proceso...</h3>
 
 
-<title>Terminado:</title>
+<p>Terminado: </p>
 <p>Crud de Ingredientes</p>
 <ul>
   <li>Listar</li>
@@ -12,6 +12,6 @@
   <li>Borrar</li>
 </ul>
 
-<title>Por hacer:</title>
+<p>Por hacer: </p>
 <p>Crud de Productos</p>
 
