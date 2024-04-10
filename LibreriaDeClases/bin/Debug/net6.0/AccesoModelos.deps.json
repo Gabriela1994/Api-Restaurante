@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "AccesoModelos/1.0.0": {
+        "runtime": {
+          "AccesoModelos.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AccesoModelos/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

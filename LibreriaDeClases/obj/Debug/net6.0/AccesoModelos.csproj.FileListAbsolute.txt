@@ -1,0 +1,12 @@
+C:\Users\teresita\Desktop\Proyecto ApiRestaurante\Programacion-Web-II\LibreriaDeClases\bin\Debug\net6.0\AccesoModelos.deps.json
+C:\Users\teresita\Desktop\Proyecto ApiRestaurante\Programacion-Web-II\LibreriaDeClases\bin\Debug\net6.0\AccesoModelos.dll
+C:\Users\teresita\Desktop\Proyecto ApiRestaurante\Programacion-Web-II\LibreriaDeClases\bin\Debug\net6.0\AccesoModelos.pdb
+C:\Users\teresita\Desktop\Proyecto ApiRestaurante\Programacion-Web-II\LibreriaDeClases\obj\Debug\net6.0\AccesoModelos.csproj.AssemblyReference.cache
+C:\Users\teresita\Desktop\Proyecto ApiRestaurante\Programacion-Web-II\LibreriaDeClases\obj\Debug\net6.0\AccesoModelos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\teresita\Desktop\Proyecto ApiRestaurante\Programacion-Web-II\LibreriaDeClases\obj\Debug\net6.0\AccesoModelos.AssemblyInfoInputs.cache
+C:\Users\teresita\Desktop\Proyecto ApiRestaurante\Programacion-Web-II\LibreriaDeClases\obj\Debug\net6.0\AccesoModelos.AssemblyInfo.cs
+C:\Users\teresita\Desktop\Proyecto ApiRestaurante\Programacion-Web-II\LibreriaDeClases\obj\Debug\net6.0\AccesoModelos.csproj.CoreCompileInputs.cache
+C:\Users\teresita\Desktop\Proyecto ApiRestaurante\Programacion-Web-II\LibreriaDeClases\obj\Debug\net6.0\AccesoModelos.dll
+C:\Users\teresita\Desktop\Proyecto ApiRestaurante\Programacion-Web-II\LibreriaDeClases\obj\Debug\net6.0\refint\AccesoModelos.dll
+C:\Users\teresita\Desktop\Proyecto ApiRestaurante\Programacion-Web-II\LibreriaDeClases\obj\Debug\net6.0\AccesoModelos.pdb
+C:\Users\teresita\Desktop\Proyecto ApiRestaurante\Programacion-Web-II\LibreriaDeClases\obj\Debug\net6.0\ref\AccesoModelos.dll

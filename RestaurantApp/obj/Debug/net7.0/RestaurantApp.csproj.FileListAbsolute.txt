@@ -1,0 +1,36 @@
+C:\Users\gabri\Source\Repos\Programacion-Web-II\RestaurantApp\bin\Debug\net7.0\RestaurantApp.exe
+C:\Users\gabri\Source\Repos\Programacion-Web-II\RestaurantApp\bin\Debug\net7.0\RestaurantApp.deps.json
+C:\Users\gabri\Source\Repos\Programacion-Web-II\RestaurantApp\bin\Debug\net7.0\RestaurantApp.runtimeconfig.json
+C:\Users\gabri\Source\Repos\Programacion-Web-II\RestaurantApp\bin\Debug\net7.0\RestaurantApp.dll
+C:\Users\gabri\Source\Repos\Programacion-Web-II\RestaurantApp\bin\Debug\net7.0\RestaurantApp.pdb
+C:\Users\gabri\Source\Repos\Programacion-Web-II\RestaurantApp\bin\Debug\net7.0\LibreriaDeClases.dll
+C:\Users\gabri\Source\Repos\Programacion-Web-II\RestaurantApp\bin\Debug\net7.0\LibreriaDeClases.pdb
+C:\Users\gabri\Source\Repos\Programacion-Web-II\RestaurantApp\obj\Debug\net7.0\RestaurantApp.csproj.AssemblyReference.cache
+C:\Users\gabri\Source\Repos\Programacion-Web-II\RestaurantApp\obj\Debug\net7.0\RestaurantApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gabri\Source\Repos\Programacion-Web-II\RestaurantApp\obj\Debug\net7.0\RestaurantApp.AssemblyInfoInputs.cache
+C:\Users\gabri\Source\Repos\Programacion-Web-II\RestaurantApp\obj\Debug\net7.0\RestaurantApp.AssemblyInfo.cs
+C:\Users\gabri\Source\Repos\Programacion-Web-II\RestaurantApp\obj\Debug\net7.0\RestaurantApp.csproj.CoreCompileInputs.cache
+C:\Users\gabri\Source\Repos\Programacion-Web-II\RestaurantApp\obj\Debug\net7.0\RestaurantApp.csproj.CopyComplete
+C:\Users\gabri\Source\Repos\Programacion-Web-II\RestaurantApp\obj\Debug\net7.0\RestaurantApp.dll
+C:\Users\gabri\Source\Repos\Programacion-Web-II\RestaurantApp\obj\Debug\net7.0\refint\RestaurantApp.dll
+C:\Users\gabri\Source\Repos\Programacion-Web-II\RestaurantApp\obj\Debug\net7.0\RestaurantApp.pdb
+C:\Users\gabri\Source\Repos\Programacion-Web-II\RestaurantApp\obj\Debug\net7.0\RestaurantApp.genruntimeconfig.cache
+C:\Users\gabri\Source\Repos\Programacion-Web-II\RestaurantApp\obj\Debug\net7.0\ref\RestaurantApp.dll
+C:\Users\teresita\Desktop\Proyecto ApiRestaurante\Programacion-Web-II\RestaurantApp\obj\Debug\net7.0\RestaurantApp.csproj.AssemblyReference.cache
+C:\Users\teresita\Desktop\Proyecto ApiRestaurante\Programacion-Web-II\RestaurantApp\obj\Debug\net7.0\RestaurantApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\teresita\Desktop\Proyecto ApiRestaurante\Programacion-Web-II\RestaurantApp\obj\Debug\net7.0\RestaurantApp.AssemblyInfoInputs.cache
+C:\Users\teresita\Desktop\Proyecto ApiRestaurante\Programacion-Web-II\RestaurantApp\obj\Debug\net7.0\RestaurantApp.AssemblyInfo.cs
+C:\Users\teresita\Desktop\Proyecto ApiRestaurante\Programacion-Web-II\RestaurantApp\obj\Debug\net7.0\RestaurantApp.csproj.CoreCompileInputs.cache
+C:\Users\teresita\Desktop\Proyecto ApiRestaurante\Programacion-Web-II\RestaurantApp\obj\Debug\net7.0\RestaurantApp.dll
+C:\Users\teresita\Desktop\Proyecto ApiRestaurante\Programacion-Web-II\RestaurantApp\obj\Debug\net7.0\refint\RestaurantApp.dll
+C:\Users\teresita\Desktop\Proyecto ApiRestaurante\Programacion-Web-II\RestaurantApp\obj\Debug\net7.0\RestaurantApp.pdb
+C:\Users\teresita\Desktop\Proyecto ApiRestaurante\Programacion-Web-II\RestaurantApp\bin\Debug\net7.0\RestaurantApp.exe
+C:\Users\teresita\Desktop\Proyecto ApiRestaurante\Programacion-Web-II\RestaurantApp\bin\Debug\net7.0\RestaurantApp.deps.json
+C:\Users\teresita\Desktop\Proyecto ApiRestaurante\Programacion-Web-II\RestaurantApp\bin\Debug\net7.0\RestaurantApp.runtimeconfig.json
+C:\Users\teresita\Desktop\Proyecto ApiRestaurante\Programacion-Web-II\RestaurantApp\bin\Debug\net7.0\RestaurantApp.dll
+C:\Users\teresita\Desktop\Proyecto ApiRestaurante\Programacion-Web-II\RestaurantApp\bin\Debug\net7.0\RestaurantApp.pdb
+C:\Users\teresita\Desktop\Proyecto ApiRestaurante\Programacion-Web-II\RestaurantApp\bin\Debug\net7.0\LibreriaDeClases.dll
+C:\Users\teresita\Desktop\Proyecto ApiRestaurante\Programacion-Web-II\RestaurantApp\bin\Debug\net7.0\LibreriaDeClases.pdb
+C:\Users\teresita\Desktop\Proyecto ApiRestaurante\Programacion-Web-II\RestaurantApp\obj\Debug\net7.0\RestaurantApp.csproj.CopyComplete
+C:\Users\teresita\Desktop\Proyecto ApiRestaurante\Programacion-Web-II\RestaurantApp\obj\Debug\net7.0\RestaurantApp.genruntimeconfig.cache
+C:\Users\teresita\Desktop\Proyecto ApiRestaurante\Programacion-Web-II\RestaurantApp\obj\Debug\net7.0\ref\RestaurantApp.dll

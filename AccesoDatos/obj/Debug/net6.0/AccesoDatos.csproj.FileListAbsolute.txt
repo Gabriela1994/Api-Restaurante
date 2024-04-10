@@ -1,0 +1,17 @@
+C:\Users\teresita\Desktop\Proyecto ApiRestaurante\Programacion-Web-II\AccesoDatos\obj\Debug\net6.0\AccesoDatos.csproj.AssemblyReference.cache
+C:\Users\teresita\Desktop\Proyecto ApiRestaurante\Programacion-Web-II\AccesoDatos\obj\Debug\net6.0\AccesoDatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\teresita\Desktop\Proyecto ApiRestaurante\Programacion-Web-II\AccesoDatos\obj\Debug\net6.0\AccesoDatos.AssemblyInfoInputs.cache
+C:\Users\teresita\Desktop\Proyecto ApiRestaurante\Programacion-Web-II\AccesoDatos\obj\Debug\net6.0\AccesoDatos.AssemblyInfo.cs
+C:\Users\teresita\Desktop\Proyecto ApiRestaurante\Programacion-Web-II\AccesoDatos\obj\Debug\net6.0\AccesoDatos.csproj.CoreCompileInputs.cache
+C:\Users\teresita\Desktop\Proyecto ApiRestaurante\Programacion-Web-II\AccesoDatos\bin\Debug\net6.0\AccesoDatos.deps.json
+C:\Users\teresita\Desktop\Proyecto ApiRestaurante\Programacion-Web-II\AccesoDatos\bin\Debug\net6.0\AccesoDatos.dll
+C:\Users\teresita\Desktop\Proyecto ApiRestaurante\Programacion-Web-II\AccesoDatos\bin\Debug\net6.0\AccesoDatos.pdb
+C:\Users\teresita\Desktop\Proyecto ApiRestaurante\Programacion-Web-II\AccesoDatos\obj\Debug\net6.0\AccesoDatos.csproj.CopyComplete
+C:\Users\teresita\Desktop\Proyecto ApiRestaurante\Programacion-Web-II\AccesoDatos\obj\Debug\net6.0\AccesoDatos.dll
+C:\Users\teresita\Desktop\Proyecto ApiRestaurante\Programacion-Web-II\AccesoDatos\obj\Debug\net6.0\refint\AccesoDatos.dll
+C:\Users\teresita\Desktop\Proyecto ApiRestaurante\Programacion-Web-II\AccesoDatos\obj\Debug\net6.0\AccesoDatos.pdb
+C:\Users\teresita\Desktop\Proyecto ApiRestaurante\Programacion-Web-II\AccesoDatos\obj\Debug\net6.0\ref\AccesoDatos.dll
+C:\Users\teresita\Desktop\Proyecto ApiRestaurante\Programacion-Web-II\AccesoDatos\bin\Debug\net6.0\AccesoDatos.runtimeconfig.json
+C:\Users\teresita\Desktop\Proyecto ApiRestaurante\Programacion-Web-II\AccesoDatos\obj\Debug\net6.0\AccesoDatos.genruntimeconfig.cache
+C:\Users\teresita\Desktop\Proyecto ApiRestaurante\Programacion-Web-II\AccesoDatos\bin\Debug\net6.0\AccesoModelos.dll
+C:\Users\teresita\Desktop\Proyecto ApiRestaurante\Programacion-Web-II\AccesoDatos\bin\Debug\net6.0\AccesoModelos.pdb

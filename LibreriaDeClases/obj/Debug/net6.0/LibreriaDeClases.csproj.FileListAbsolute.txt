@@ -1,0 +1,12 @@
+C:\Users\teresita\Desktop\Proyecto ApiRestaurante\Programacion-Web-II\LibreriaDeClases\obj\Debug\net6.0\LibreriaDeClases.csproj.AssemblyReference.cache
+C:\Users\teresita\Desktop\Proyecto ApiRestaurante\Programacion-Web-II\LibreriaDeClases\obj\Debug\net6.0\LibreriaDeClases.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\teresita\Desktop\Proyecto ApiRestaurante\Programacion-Web-II\LibreriaDeClases\obj\Debug\net6.0\LibreriaDeClases.AssemblyInfoInputs.cache
+C:\Users\teresita\Desktop\Proyecto ApiRestaurante\Programacion-Web-II\LibreriaDeClases\obj\Debug\net6.0\LibreriaDeClases.AssemblyInfo.cs
+C:\Users\teresita\Desktop\Proyecto ApiRestaurante\Programacion-Web-II\LibreriaDeClases\obj\Debug\net6.0\LibreriaDeClases.csproj.CoreCompileInputs.cache
+C:\Users\teresita\Desktop\Proyecto ApiRestaurante\Programacion-Web-II\LibreriaDeClases\bin\Debug\net6.0\LibreriaDeClases.deps.json
+C:\Users\teresita\Desktop\Proyecto ApiRestaurante\Programacion-Web-II\LibreriaDeClases\bin\Debug\net6.0\LibreriaDeClases.dll
+C:\Users\teresita\Desktop\Proyecto ApiRestaurante\Programacion-Web-II\LibreriaDeClases\bin\Debug\net6.0\LibreriaDeClases.pdb
+C:\Users\teresita\Desktop\Proyecto ApiRestaurante\Programacion-Web-II\LibreriaDeClases\obj\Debug\net6.0\LibreriaDeClases.dll
+C:\Users\teresita\Desktop\Proyecto ApiRestaurante\Programacion-Web-II\LibreriaDeClases\obj\Debug\net6.0\refint\LibreriaDeClases.dll
+C:\Users\teresita\Desktop\Proyecto ApiRestaurante\Programacion-Web-II\LibreriaDeClases\obj\Debug\net6.0\LibreriaDeClases.pdb
+C:\Users\teresita\Desktop\Proyecto ApiRestaurante\Programacion-Web-II\LibreriaDeClases\obj\Debug\net6.0\ref\LibreriaDeClases.dll
