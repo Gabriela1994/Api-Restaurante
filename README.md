@@ -4,9 +4,10 @@
 
 
 🚨Estoy utilizando:
-Entity Framework / code first.
-ASP .NET Core Web APi
-
+<ul>
+  <li>ASP .NET Core Web APi</li>
+  <li>Entity Framework / code first.</li>
+</ul>
 
 <h3>📌Terminado: </h3>
 <p>Crud de Ingredientes</p>
