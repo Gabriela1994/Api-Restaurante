@@ -43,29 +43,30 @@ namespace AccesoDatos.Repositorios
                 _context.SaveChanges();
             }
         }        
-        public void EditarUnIngrediente(int idIngrediente, IngredienteCustom value)
-        {
-            Ingrediente ingrediente = new Ingrediente();
-
-            using (_context)
-            {
-                ingrediente = _context.Ingrediente.Find(idIngrediente);
-
-                ingrediente.Nombre = value.Nombre;
-                ingrediente.Precio = value.Precio;
-                ingrediente.Stock = value.Stock;
-
-                _context.Entry(ingrediente).State = EntityState.Modified;
-                _context.SaveChanges();
-            }
-        }
-
         public Ingrediente BuscarIngredientePorId(int idIngrediente)
         {
             Ingrediente ingrediente = new Ingrediente();
             ingrediente = _context.Ingrediente.Find(idIngrediente);
             return ingrediente;
         }
+        public void EditarUnIngrediente(int idIngrediente, Ingrediente value)
+        {
+            Ingrediente ingrediente = new Ingrediente();
+
+            using (_context)
+            {
+                ingrediente = BuscarIngredientePorId(idIngrediente);
+
+                ingrediente.Nombre = value.Nombre;
+                ingrediente.Precio = value.Precio;
+                ingrediente.Stock = value.Stock;
+                ingrediente.Disponibilidad = value.Disponibilidad;
+
+                _context.Entry(ingrediente).State = EntityState.Modified;
+                _context.SaveChanges();
+            }
+        }
+
 
         public void EliminarIngrediente(int IdIngrediente)
         {
