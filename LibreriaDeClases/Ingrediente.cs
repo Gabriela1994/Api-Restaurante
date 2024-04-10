@@ -23,7 +23,7 @@ namespace AccesoModelos
 
         public bool Disponibilidad { get; set; }
 
-        public List<Producto> Productos { get; set; }
+        public List<Producto> Productos { get; }
 
         public Ingrediente(string nombre, double precio, int stock)
         {

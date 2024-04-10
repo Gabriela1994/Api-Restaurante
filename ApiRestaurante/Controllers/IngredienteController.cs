@@ -41,13 +41,13 @@ namespace ApiRestaurante.Controllers
         // POST: IngredienteController/Create
         [HttpPost]
         //[ValidateAntiForgeryToken]
-        [Route("api/ingredientes/create")]
+        [Route("api/ingredientes/crear")]
         public void Create(IngredienteCustom data_ingrediente)
         {
             try
             {
                 LogicaIngredientes ingredientes = new LogicaIngredientes(_context);
-                ingredientes.CrearUnIngrediente(data_ingrediente);
+                ingredientes.CrearUnIngrediente(data_ingrediente);                
             }
             catch
             {
@@ -56,23 +56,29 @@ namespace ApiRestaurante.Controllers
         }
 
         // GET: IngredienteController/Edit/5
-        public ActionResult Edit(int id)
+        [HttpGet]
+        [Route("api/ingredientes/buscar-id")]
+        public Ingrediente Edit(int id)
         {
-            return View();
+            LogicaIngredientes ingredientes = new LogicaIngredientes(_context);
+            return ingredientes.ObtenerIngredientePorId(id);
         }
 
         // POST: IngredienteController/Edit/5
         [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Edit(int id, IFormCollection collection)
+        [Route("api/ingredientes/editar")]
+        //[ValidateAntiForgeryToken]
+        public void Edit(IngredienteCustom data_ingrediente)
         {
             try
             {
-                return RedirectToAction(nameof(Index));
+                int idIngrediente = data_ingrediente.Id;
+                LogicaIngredientes ingredientes = new LogicaIngredientes(_context);
+                ingredientes.EditarUnIngrediente(idIngrediente, data_ingrediente);
             }
             catch
             {
-                return View();
+                Response.StatusCode = 404;
             }
         }
 
