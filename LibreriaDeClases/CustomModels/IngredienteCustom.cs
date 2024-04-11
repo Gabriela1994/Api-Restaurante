@@ -18,17 +18,18 @@ namespace AccesoModelos.CustomModels
         public double Precio { get; set; }
         public int Stock { get; set; }
 
-        public IngredienteCustom(int id, string nombre, double precio, int stock) 
+        public IngredienteCustom(int id, string nombre, double precio, int stock)
         {
             Id = id;
             Nombre = nombre;
             Precio = precio;
             Stock = stock;
-        }        
+        }
         public IngredienteCustom()
         {
 
         }
+    }
 
         public class ListarIngredientes : IngredienteCustom
         {
@@ -46,4 +47,3 @@ namespace AccesoModelos.CustomModels
             }
         }
     }
-}

@@ -77,6 +77,23 @@ namespace AccesoDatos.Repositorios
                 _context.Ingrediente.Remove(ingrediente);
                 _context.SaveChanges();
             }
+        }        
+        public List<IngredienteCustom> ListaDeIngredientesPorHamburguesa(int id)
+        {
+            List<IngredienteCustom> lista_ingrediente = new List<IngredienteCustom>();
+
+            lista_ingrediente = (from prod in _context.IngredienteXProducto
+                                 join i in _context.Ingrediente on prod.IdIngrediente equals i.Id
+                                 where prod.IdProducto == id
+                                 select new IngredienteCustom
+                                 {
+                                     Id = i.Id,
+                                     Nombre = i.Nombre,
+                                     Precio = i.Precio,
+                                     Stock = i.Stock
+                                 }).ToList();
+
+            return lista_ingrediente;
         }
     }
 }

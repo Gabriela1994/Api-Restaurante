@@ -20,21 +20,23 @@ namespace AccesoDatos.Repositorios
         public List<ProductoCustom> ObtenerListaDeProductos()
         {
             List<ProductoCustom> lista_productos = new List<ProductoCustom>();
+            IngredienteRepository repoIngredientes = new IngredienteRepository(_context);
             using (_context)
             {
-                lista_productos = (from p in _context.Producto
-                                   join c in _context.Categoria
-                                   on p.Categoria.Id equals c.Id
-                                   select new ProductoCustom
-                                   {
-                                       Id= p.Id,
-                                       Nombre_producto = p.Nombre_producto,
-                                       IdCategoria = c.Id,
-                                       Nombre_categoria = c.Nombre,
-                                       Precio = p.Precio,
-                                       Descripcion = p.Descripcion,
-                                       Ingredientes = p.Ingredientes.ToList(),
-                                   }).ToList();
+                {
+                    lista_productos = (from p in _context.Producto
+                                       join c in _context.Categoria on p.Categoria.Id equals c.Id
+                                       select new ProductoCustom
+                                       {
+                                           Id = p.Id,
+                                           Nombre_producto = p.Nombre_producto,
+                                           IdCategoria = p.Categoria.Id,
+                                           Nombre_categoria = c.Nombre,
+                                           Precio = p.Precio,
+                                           Descripcion = p.Descripcion,
+                                           Ingredientes = repoIngredientes.ListaDeIngredientesPorHamburguesa(p.Id)
+                                       }).ToList();
+                }
             }
             return lista_productos;
         }
@@ -45,8 +47,7 @@ namespace AccesoDatos.Repositorios
 
             using (_context)
             {
-                producto.Nombre_producto = value.Nombre_producto;
-                producto.Categoria = value.Categoria;
+
             }
         }
         public Producto BuscarProductoPorId(int idProducto)

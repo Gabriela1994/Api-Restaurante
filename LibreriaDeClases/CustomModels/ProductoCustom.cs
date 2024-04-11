@@ -13,7 +13,7 @@ namespace AccesoModelos.CustomModels
         public int IdCategoria { get; set; }
         public string Nombre_categoria { get; set; }
         public double Precio { get; set; }
-        public List<Ingrediente> Ingredientes { get; set; }
+        public List<IngredienteCustom> Ingredientes { get; set; }
         public string Descripcion { get; set; }
     }
 }

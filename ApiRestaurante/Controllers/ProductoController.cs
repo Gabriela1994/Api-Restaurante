@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 using AccesoDatos.Repositorios;
 using static AccesoModelos.CustomModels.ProductoCustom;
 using AccesoDatos;
+using LogicaDeNegocio;
 
 namespace ApiRestaurante.Controllers
 {
@@ -21,8 +22,8 @@ namespace ApiRestaurante.Controllers
 
         public List<ProductoCustom> Index()
         {
-            ProductoRepository repoProducto = new ProductoRepository(_context);
-            return repoProducto.ObtenerListaDeProductos();
+            LogicaProductos productos = new LogicaProductos(_context);
+            return productos.ObtenerProductos();
         }
 
         // GET: ProductoController/Details/5
