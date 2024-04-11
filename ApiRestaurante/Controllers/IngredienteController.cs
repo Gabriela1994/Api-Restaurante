@@ -6,6 +6,7 @@ using AccesoDatos;
 using Microsoft.EntityFrameworkCore;
 using AccesoDatos.Repositorios;
 using AccesoModelos.CustomModels;
+using static AccesoModelos.CustomModels.IngredienteCustom;
 
 namespace ApiRestaurante.Controllers
 {
@@ -20,10 +21,10 @@ namespace ApiRestaurante.Controllers
         // GET: IngredienteController
         [HttpGet]
         [Route("api/ingredientes/lista")]
-        public List<IngredienteCustom> Index()
+        public List<ListarIngredientes> Index()
         {
             LogicaIngredientes ingredientes = new LogicaIngredientes(_context);
-            return ingredientes.GetIngredientes();
+            return ingredientes.ObtenerIngredientes();
         }     
 
         // GET: IngredienteController/Details/5

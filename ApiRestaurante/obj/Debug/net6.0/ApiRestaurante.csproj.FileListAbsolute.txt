@@ -152,3 +152,4 @@ C:\Users\teresita\source\repos\Api-Restaurante\ApiRestaurante\obj\Debug\net6.0\A
 C:\Users\teresita\source\repos\Api-Restaurante\ApiRestaurante\obj\Debug\net6.0\ApiRestaurante.pdb
 C:\Users\teresita\source\repos\Api-Restaurante\ApiRestaurante\obj\Debug\net6.0\ApiRestaurante.genruntimeconfig.cache
 C:\Users\teresita\source\repos\Api-Restaurante\ApiRestaurante\obj\Debug\net6.0\ref\ApiRestaurante.dll
+C:\Users\teresita\source\repos\Api-Restaurante\ApiRestaurante\bin\Debug\net6.0\NSwag.Annotations.dll

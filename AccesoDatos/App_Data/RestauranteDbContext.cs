@@ -32,5 +32,6 @@ namespace AccesoDatos
         public DbSet<Empleado> Empleado { get; set; }
         public DbSet<Ingrediente> Ingrediente { get; set; }
         public DbSet<Producto> Producto { get; set; }
+        public DbSet<Categoria> Categoria { get; set; }
     }
 }

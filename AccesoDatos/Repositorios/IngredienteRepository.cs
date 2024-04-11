@@ -19,12 +19,12 @@ namespace AccesoDatos.Repositorios
         {
             _context = context;
         }        
-        public List<IngredienteCustom> ObtenerListaDeIngredientes()
+        public List<ListarIngredientes> ObtenerListaDeIngredientes()
         {
             using (_context)
             {
-                List<IngredienteCustom> lista_ingredientes = new List<IngredienteCustom>();
-                lista_ingredientes = _context.Ingrediente.Select(p => new IngredienteCustom(p.Id, p.Nombre, p.Precio, p.Stock)).ToList();
+                List<ListarIngredientes> lista_ingredientes = new List<ListarIngredientes>();
+                lista_ingredientes = _context.Ingrediente.Select(p => new ListarIngredientes(p.Id, p.Nombre, p.Precio, p.Stock)).ToList();
                 return lista_ingredientes;
             }
         }

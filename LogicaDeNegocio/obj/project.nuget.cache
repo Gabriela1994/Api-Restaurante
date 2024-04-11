@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "fBpI3FPTQFYPmV6yIyrARIurHyja0twdpRsCLBQc3Q9GAWzk1MsTO0Fggjd3+Y7lLSC7MYj7YgujGxAVbjbr9Q==",
+  "dgSpecHash": "oiKJL9R3WnCj2ZJCTbHvap0MF/P911vYDzAVl6Xpneg0oy0klVnsR5hXABfY+hIO9DHtR5UAT5SdZyR4Ok0ZNA==",
   "success": true,
   "projectFilePath": "C:\\Users\\teresita\\source\\repos\\Api-Restaurante\\LogicaDeNegocio\\LogicaDeNegocio.csproj",
   "expectedPackageFiles": [
@@ -30,6 +30,7 @@
     "C:\\Users\\teresita\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\teresita\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\teresita\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
+    "C:\\Users\\teresita\\.nuget\\packages\\nswag.annotations\\14.0.7\\nswag.annotations.14.0.7.nupkg.sha512",
     "C:\\Users\\teresita\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
     "C:\\Users\\teresita\\.nuget\\packages\\system.configuration.configurationmanager\\4.7.0\\system.configuration.configurationmanager.4.7.0.nupkg.sha512",
     "C:\\Users\\teresita\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",

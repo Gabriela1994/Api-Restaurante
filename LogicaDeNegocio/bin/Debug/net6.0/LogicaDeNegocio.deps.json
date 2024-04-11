@@ -317,6 +317,14 @@
           }
         }
       },
+      "NSwag.Annotations/14.0.7": {
+        "runtime": {
+          "lib/netstandard2.0/NSwag.Annotations.dll": {
+            "assemblyVersion": "14.0.7.0",
+            "fileVersion": "14.0.7.0"
+          }
+        }
+      },
       "System.Collections.Immutable/6.0.0": {
         "dependencies": {
           "System.Runtime.CompilerServices.Unsafe": "6.0.0"
@@ -468,6 +476,9 @@
         }
       },
       "AccesoModelos/1.0.0": {
+        "dependencies": {
+          "NSwag.Annotations": "14.0.7"
+        },
         "runtime": {
           "AccesoModelos.dll": {}
         }
@@ -661,6 +672,13 @@
       "sha512": "sha512-mtVirZr++rq+XCDITMUdnETD59XoeMxSpLRIII7JRI6Yj0LEDiO1pPn0ktlnIj12Ix8bfvQqQDMMIF9wC98oCA==",
       "path": "microsoft.win32.systemevents/4.7.0",
       "hashPath": "microsoft.win32.systemevents.4.7.0.nupkg.sha512"
+    },
+    "NSwag.Annotations/14.0.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-eSuuWtX9rb40LPl4srrw4u1KUdc5uKAoTDbQE4wVl1sjx6ErVAjkFEkFiuzb5cE2jvvXI5OrsH1s83mB74KyUA==",
+      "path": "nswag.annotations/14.0.7",
+      "hashPath": "nswag.annotations.14.0.7.nupkg.sha512"
     },
     "System.Collections.Immutable/6.0.0": {
       "type": "package",

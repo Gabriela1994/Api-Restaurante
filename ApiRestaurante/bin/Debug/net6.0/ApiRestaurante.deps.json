@@ -325,6 +325,14 @@
           }
         }
       },
+      "NSwag.Annotations/14.0.7": {
+        "runtime": {
+          "lib/netstandard2.0/NSwag.Annotations.dll": {
+            "assemblyVersion": "14.0.7.0",
+            "fileVersion": "14.0.7.0"
+          }
+        }
+      },
       "Swashbuckle.AspNetCore/6.2.3": {
         "dependencies": {
           "Microsoft.Extensions.ApiDescription.Server": "3.0.0",
@@ -526,6 +534,9 @@
         }
       },
       "AccesoModelos/1.0.0": {
+        "dependencies": {
+          "NSwag.Annotations": "14.0.7"
+        },
         "runtime": {
           "AccesoModelos.dll": {}
         }
@@ -784,6 +795,13 @@
       "sha512": "sha512-q3V4KLetMLnt1gpAVWgtXnHjKs0UG/RalBc29u2ZKxd5t5Ze4JBL5WiiYIklJyK/5CRiIiNwigVQUo0FgbsuWA==",
       "path": "newtonsoft.json/7.0.1",
       "hashPath": "newtonsoft.json.7.0.1.nupkg.sha512"
+    },
+    "NSwag.Annotations/14.0.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-eSuuWtX9rb40LPl4srrw4u1KUdc5uKAoTDbQE4wVl1sjx6ErVAjkFEkFiuzb5cE2jvvXI5OrsH1s83mB74KyUA==",
+      "path": "nswag.annotations/14.0.7",
+      "hashPath": "nswag.annotations.14.0.7.nupkg.sha512"
     },
     "Swashbuckle.AspNetCore/6.2.3": {
       "type": "package",

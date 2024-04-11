@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ngN56JDf0gYNjXUcBD3vHYQilZzgE88wYAq7lmD73kMSWs0kYhP3c5SQVSDw5uaQPRbNMmmY81uvSPBmxtOLxg==",
+  "dgSpecHash": "F3GTIslVTOqXOXjSAmEbofFaiJsVMoL7TcsH/53P1yaosHL13SO+hCFJNEa6zPqiEQiYSlqTLGT6m/1CkV0vJA==",
   "success": true,
   "projectFilePath": "C:\\Users\\teresita\\source\\repos\\Api-Restaurante\\AccesoDatos\\AccesoDatos.csproj",
   "expectedPackageFiles": [
@@ -33,6 +33,7 @@
     "C:\\Users\\teresita\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\teresita\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\teresita\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
+    "C:\\Users\\teresita\\.nuget\\packages\\nswag.annotations\\14.0.7\\nswag.annotations.14.0.7.nupkg.sha512",
     "C:\\Users\\teresita\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
     "C:\\Users\\teresita\\.nuget\\packages\\system.configuration.configurationmanager\\4.7.0\\system.configuration.configurationmanager.4.7.0.nupkg.sha512",
     "C:\\Users\\teresita\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",

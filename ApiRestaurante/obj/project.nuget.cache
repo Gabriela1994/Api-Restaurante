@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "G6X9fz9LIoVWS3MvYwA7lssHI0Wtjefm20SpNQQdLYHSF5iTPYwHBZbtadVuqcoGnpP5OHHZBgOsNHtIxpwW9Q==",
+  "dgSpecHash": "8DrSFcUtgHjwTIpejqWV5mCvgJqxTqg00oe0IOs7kljxEdHjOlQ41kNWZkU83wIyX+cNRRcWpj9khcTo+UAzTg==",
   "success": true,
   "projectFilePath": "C:\\Users\\teresita\\source\\repos\\Api-Restaurante\\ApiRestaurante\\ApiRestaurante.csproj",
   "expectedPackageFiles": [
@@ -38,6 +38,7 @@
     "C:\\Users\\teresita\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\teresita\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
     "C:\\Users\\teresita\\.nuget\\packages\\newtonsoft.json\\7.0.1\\newtonsoft.json.7.0.1.nupkg.sha512",
+    "C:\\Users\\teresita\\.nuget\\packages\\nswag.annotations\\14.0.7\\nswag.annotations.14.0.7.nupkg.sha512",
     "C:\\Users\\teresita\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
     "C:\\Users\\teresita\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
     "C:\\Users\\teresita\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",

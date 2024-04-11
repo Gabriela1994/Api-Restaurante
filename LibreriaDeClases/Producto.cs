@@ -10,7 +10,7 @@ namespace AccesoModelos
     {
         public int Id { get; set; }
         public string Nombre_producto { get; set; }
-        public string Categoria { get; set; }
+        public Categoria Categoria { get; set; }
         public double Precio { get; set; }
         public List<Ingrediente> Ingredientes { get; set; }
         public string Descripcion { get; set; }

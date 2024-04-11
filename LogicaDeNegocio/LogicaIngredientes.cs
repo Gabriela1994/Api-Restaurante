@@ -2,6 +2,7 @@
 using AccesoDatos.Repositorios;
 using AccesoModelos;
 using AccesoModelos.CustomModels;
+using static AccesoModelos.CustomModels.IngredienteCustom;
 
 namespace LogicaDeNegocio
 {
@@ -14,7 +15,7 @@ namespace LogicaDeNegocio
             _context = context;
         }
 
-        public List<IngredienteCustom> GetIngredientes()
+        public List<ListarIngredientes> ObtenerIngredientes()
         {
             IngredienteRepository repoIngrediente = new IngredienteRepository(_context);
             return repoIngrediente.ObtenerListaDeIngredientes();
@@ -28,7 +29,7 @@ namespace LogicaDeNegocio
             ingrediente.Nombre = data_ingrediente.Nombre;
             ingrediente.Precio = data_ingrediente.Precio;
             ingrediente.Stock = data_ingrediente.Stock;
-            ingrediente.Disponibilidad = (ingrediente.Stock != 0 ? true : false);            
+            ingrediente.Disponibilidad = (ingrediente.Stock != 0 ? true : false);      
             
             repoIngrediente.CrearUnIngrediente(ingrediente);
         }

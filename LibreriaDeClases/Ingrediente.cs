@@ -9,6 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Text.Json.Serialization;
 
 namespace AccesoModelos
 {
@@ -23,13 +24,15 @@ namespace AccesoModelos
 
         public bool Disponibilidad { get; set; }
 
-        public List<Producto> Productos { get; }
+        [JsonIgnore]
+        public List<Producto> Productos { get; set; }
 
         public Ingrediente(string nombre, double precio, int stock)
         {
             Nombre = nombre;
             Precio = precio;
             Stock = stock;
+            Disponibilidad = Stock != 0 ? true : false;
         }        
         public Ingrediente()
         {

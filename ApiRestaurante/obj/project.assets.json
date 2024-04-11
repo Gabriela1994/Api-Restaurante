@@ -569,6 +569,19 @@
           }
         }
       },
+      "NSwag.Annotations/14.0.7": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/NSwag.Annotations.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/NSwag.Annotations.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Swashbuckle.AspNetCore/6.2.3": {
         "type": "package",
         "dependencies": {
@@ -941,6 +954,9 @@
       "AccesoModelos/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "NSwag.Annotations": "14.0.7"
+        },
         "compile": {
           "bin/placeholder/AccesoModelos.dll": {}
         },
@@ -1783,6 +1799,22 @@
         "newtonsoft.json.7.0.1.nupkg.sha512",
         "newtonsoft.json.nuspec",
         "tools/install.ps1"
+      ]
+    },
+    "NSwag.Annotations/14.0.7": {
+      "sha512": "eSuuWtX9rb40LPl4srrw4u1KUdc5uKAoTDbQE4wVl1sjx6ErVAjkFEkFiuzb5cE2jvvXI5OrsH1s83mB74KyUA==",
+      "type": "package",
+      "path": "nswag.annotations/14.0.7",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "NuGetIcon.png",
+        "lib/net462/NSwag.Annotations.dll",
+        "lib/net462/NSwag.Annotations.xml",
+        "lib/netstandard2.0/NSwag.Annotations.dll",
+        "lib/netstandard2.0/NSwag.Annotations.xml",
+        "nswag.annotations.14.0.7.nupkg.sha512",
+        "nswag.annotations.nuspec"
       ]
     },
     "Swashbuckle.AspNetCore/6.2.3": {
