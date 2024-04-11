@@ -17,7 +17,10 @@
   <li>✅Editar</li>
   <li>✅Borrar</li>
 </ul>
-
-<h3>📌Por hacer: </h3>
+<p>Crud de Productos</p>
+<ul>
+  <li>✅Listar</li>
+</ul>
+<h3>📌Construyendo: </h3>
 <p>Crud de Productos</p>
 
