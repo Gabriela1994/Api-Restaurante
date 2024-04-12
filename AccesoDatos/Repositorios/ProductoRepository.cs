@@ -41,13 +41,29 @@ namespace AccesoDatos.Repositorios
             return lista_productos;
         }
 
-        public void CrearUnProducto(Producto value)
+        public int CrearUnProducto(Producto value_producto)
         {
             Producto producto = new Producto();
+            IngredienteProducto ingredientes = new IngredienteProducto();
+
+                producto.Nombre_producto = value_producto.Nombre_producto;
+                producto.Precio = value_producto.Precio;
+                producto.Descripcion = value_producto.Descripcion;
+                producto.Categoria = value_producto.Categoria;
+                _context.Add(producto);
+                _context.SaveChanges();
+            return producto.Id;
+        }        
+        public void CrearUnProductoNN(int idProducto, int idIngrediente)
+        {
+            IngredienteProducto producto = new IngredienteProducto();
 
             using (_context)
             {
-
+                producto.IdProducto = idProducto;
+                producto.IdIngrediente = idIngrediente;
+                _context.Add(producto);
+                _context.SaveChanges();
             }
         }
         public Producto BuscarProductoPorId(int idProducto)

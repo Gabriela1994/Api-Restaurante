@@ -15,5 +15,14 @@ namespace AccesoModelos.CustomModels
         public double Precio { get; set; }
         public List<IngredienteCustom> Ingredientes { get; set; }
         public string Descripcion { get; set; }
+    }    
+    public class CrearProducto
+    {
+        public int Id { get; set; }
+        public string Nombre_producto { get; set; }
+        public int IdCategoria { get; set; }
+        public double Precio { get; set; }
+        public int Idingredientes { get; set; }
+        public string Descripcion { get; set; }
     }
 }

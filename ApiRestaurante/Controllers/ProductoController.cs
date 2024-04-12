@@ -22,8 +22,8 @@ namespace ApiRestaurante.Controllers
 
         public List<ProductoCustom> Index()
         {
-            LogicaProductos productos = new LogicaProductos(_context);
-            return productos.ObtenerProductos();
+            LogicaProductos log_producto = new LogicaProductos(_context);
+            return log_producto.ObtenerProductos();
         }
 
         // GET: ProductoController/Details/5
@@ -40,16 +40,18 @@ namespace ApiRestaurante.Controllers
 
         // POST: ProductoController/Create
         [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Create(IFormCollection collection)
+        [Route("api/productos/create")]
+        //[ValidateAntiForgeryToken]
+        public void Create(CrearProducto data_producto)
         {
             try
             {
-                return RedirectToAction(nameof(Index));
+                LogicaProductos log_producto = new LogicaProductos(_context);
+                log_producto.CrearUnProducto(data_producto, data_producto.Idingredientes);
             }
             catch
             {
-                return View();
+                Response.StatusCode = 404;
             }
         }
 
