@@ -29,7 +29,7 @@ namespace LogicaDeNegocio
             ingrediente.Nombre = data_ingrediente.Nombre;
             ingrediente.Precio = data_ingrediente.Precio;
             ingrediente.Stock = data_ingrediente.Stock;
-            ingrediente.Disponibilidad = (ingrediente.Stock != 0 ? true : false);      
+            ingrediente.Disponibilidad = (ingrediente.Stock != 0 ? "Disponible" : "No disponible");      
             
             repoIngrediente.CrearUnIngrediente(ingrediente);
         }
@@ -48,7 +48,7 @@ namespace LogicaDeNegocio
             ingrediente.Nombre = data_ingrediente.Nombre;
             ingrediente.Precio = data_ingrediente.Precio;
             ingrediente.Stock = data_ingrediente.Stock;
-            ingrediente.Disponibilidad = (ingrediente.Stock != 0 ? true : false);
+            ingrediente.Disponibilidad = (ingrediente.Stock != 0 ? "Disponible" : "No disponible");
 
             repoIngrediente.EditarUnIngrediente(idIngrediente, ingrediente);
         }        

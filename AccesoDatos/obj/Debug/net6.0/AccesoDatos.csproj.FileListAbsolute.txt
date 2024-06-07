@@ -32,3 +32,20 @@ C:\Users\teresita\source\repos\Api-Restaurante\AccesoDatos\obj\Debug\net6.0\refi
 C:\Users\teresita\source\repos\Api-Restaurante\AccesoDatos\obj\Debug\net6.0\AccesoDatos.pdb
 C:\Users\teresita\source\repos\Api-Restaurante\AccesoDatos\obj\Debug\net6.0\AccesoDatos.genruntimeconfig.cache
 C:\Users\teresita\source\repos\Api-Restaurante\AccesoDatos\obj\Debug\net6.0\ref\AccesoDatos.dll
+C:\Users\gabri\OneDrive\Escritorio\api restaurante\Api-Restaurante\AccesoDatos\obj\Debug\net6.0\AccesoDatos.dll
+C:\Users\gabri\OneDrive\Escritorio\api restaurante\Api-Restaurante\AccesoDatos\obj\Debug\net6.0\refint\AccesoDatos.dll
+C:\Users\gabri\OneDrive\Escritorio\api restaurante\Api-Restaurante\AccesoDatos\obj\Debug\net6.0\AccesoDatos.pdb
+C:\Users\gabri\OneDrive\Escritorio\api restaurante\Api-Restaurante\AccesoDatos\bin\Debug\net6.0\AccesoDatos.deps.json
+C:\Users\gabri\OneDrive\Escritorio\api restaurante\Api-Restaurante\AccesoDatos\bin\Debug\net6.0\AccesoDatos.runtimeconfig.json
+C:\Users\gabri\OneDrive\Escritorio\api restaurante\Api-Restaurante\AccesoDatos\bin\Debug\net6.0\AccesoDatos.dll
+C:\Users\gabri\OneDrive\Escritorio\api restaurante\Api-Restaurante\AccesoDatos\bin\Debug\net6.0\AccesoDatos.pdb
+C:\Users\gabri\OneDrive\Escritorio\api restaurante\Api-Restaurante\AccesoDatos\bin\Debug\net6.0\AccesoModelos.dll
+C:\Users\gabri\OneDrive\Escritorio\api restaurante\Api-Restaurante\AccesoDatos\bin\Debug\net6.0\AccesoModelos.pdb
+C:\Users\gabri\OneDrive\Escritorio\api restaurante\Api-Restaurante\AccesoDatos\obj\Debug\net6.0\AccesoDatos.csproj.AssemblyReference.cache
+C:\Users\gabri\OneDrive\Escritorio\api restaurante\Api-Restaurante\AccesoDatos\obj\Debug\net6.0\AccesoDatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gabri\OneDrive\Escritorio\api restaurante\Api-Restaurante\AccesoDatos\obj\Debug\net6.0\AccesoDatos.AssemblyInfoInputs.cache
+C:\Users\gabri\OneDrive\Escritorio\api restaurante\Api-Restaurante\AccesoDatos\obj\Debug\net6.0\AccesoDatos.AssemblyInfo.cs
+C:\Users\gabri\OneDrive\Escritorio\api restaurante\Api-Restaurante\AccesoDatos\obj\Debug\net6.0\AccesoDatos.csproj.CoreCompileInputs.cache
+C:\Users\gabri\OneDrive\Escritorio\api restaurante\Api-Restaurante\AccesoDatos\obj\Debug\net6.0\AccesoDatos.csproj.CopyComplete
+C:\Users\gabri\OneDrive\Escritorio\api restaurante\Api-Restaurante\AccesoDatos\obj\Debug\net6.0\AccesoDatos.genruntimeconfig.cache
+C:\Users\gabri\OneDrive\Escritorio\api restaurante\Api-Restaurante\AccesoDatos\obj\Debug\net6.0\ref\AccesoDatos.dll

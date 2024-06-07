@@ -1,13 +1,6 @@
-﻿using AccesoDatos;
-using AccesoModelos;
+﻿using AccesoModelos;
 using AccesoModelos.CustomModels;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using static AccesoModelos.CustomModels.IngredienteCustom;
 
 namespace AccesoDatos.Repositorios
 {
@@ -78,22 +71,37 @@ namespace AccesoDatos.Repositorios
                 _context.SaveChanges();
             }
         }        
-        public List<IngredienteCustom> ListaDeIngredientesPorHamburguesa(int id)
+        public List<IngredientePorProducto> ListaDeIngredientesPorHamburguesa(int id)
         {
-            List<IngredienteCustom> lista_ingrediente = new List<IngredienteCustom>();
+            List<IngredientePorProducto> lista_ingrediente = new List<IngredientePorProducto>();
 
             lista_ingrediente = (from prod in _context.IngredienteXProducto
                                  join i in _context.Ingrediente on prod.IdIngrediente equals i.Id
                                  where prod.IdProducto == id
-                                 select new IngredienteCustom
-                                 {
-                                     Id = i.Id,
-                                     Nombre = i.Nombre,
-                                     Precio = i.Precio,
-                                     Stock = i.Stock
-                                 }).ToList();
+                                 select new IngredientePorProducto { Id = i.Id, Nombre = i.Nombre }).ToList();
 
             return lista_ingrediente;
+        }
+
+        public List<Ingrediente> ListaIngredientesFaltantes()
+        {
+            List<Ingrediente> ingredientes_faltantes = new List<Ingrediente>();
+
+            ingredientes_faltantes = _context.Ingrediente.Select(i => i)
+                .Where(i => i.Stock == 0)
+                .ToList();
+
+            return ingredientes_faltantes;
+        }        
+        public List<Ingrediente> ListaIngredienteConPocoStock()
+        {
+            List<Ingrediente> ingredientes_faltantes = new List<Ingrediente>();
+
+            ingredientes_faltantes = _context.Ingrediente.Select(i => i)
+                .Where(i => i.Stock > 1 && i.Stock < 50)
+                .ToList();
+
+            return ingredientes_faltantes;
         }
     }
 }

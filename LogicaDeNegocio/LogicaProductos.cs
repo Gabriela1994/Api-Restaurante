@@ -26,28 +26,32 @@ namespace LogicaDeNegocio
             return repoProductos.ObtenerListaDeProductos();
         }        
         
-        public void CrearUnProducto(CrearProducto value, int idIngrediente)
+        public void CrearUnProducto(CrearProducto data_producto)
         {
 
             ProductoRepository repoProductos = new ProductoRepository(_context);
             IngredienteRepository repoIngredientes = new IngredienteRepository(_context);
             Producto producto = new Producto();
 
-                var categoria = _context.Categoria.Find(value.IdCategoria);
+                var categoria = _context.Categoria.Find(data_producto.IdCategoria);
 
-                producto.Nombre_producto = value.Nombre_producto;
-                producto.Precio = value.Precio;
-                producto.Descripcion = value.Descripcion;
+                producto.Nombre_producto = data_producto.Nombre_producto;
+                producto.Precio = data_producto.Precio;
+                producto.Descripcion = data_producto.Descripcion;
                 producto.Categoria = categoria;
-                var producto_final = repoProductos.CrearUnProducto(producto);
+                var id_producto = repoProductos.CrearUnProducto(producto);
 
-                var obj_producto = repoProductos.BuscarProductoPorId(producto_final);
-                int idRecuperado = obj_producto.Id;
 
-                var obj_ingrediente = repoIngredientes.BuscarIngredientePorId(idIngrediente);
-                int id_ingrediente = obj_ingrediente.Id;
+            List<Ingrediente> lista_ingredientes = new List<Ingrediente>();
 
-                repoProductos.CrearUnProductoNN(idRecuperado, id_ingrediente);
+            foreach (var n in data_producto.Ingredientes)
+            {
+                var item = repoIngredientes.BuscarIngredientePorId(n);
+                lista_ingredientes.Add(item);
+            }
+
+            repoProductos.CrearUnProductoNN(id_producto, lista_ingredientes);
+            _context.SaveChanges();
         }
     }
 }

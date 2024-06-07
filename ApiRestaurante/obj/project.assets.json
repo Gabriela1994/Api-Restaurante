@@ -2420,19 +2420,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\teresita\\.nuget\\packages\\": {}
+    "C:\\Users\\gabri\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\teresita\\source\\repos\\Api-Restaurante\\ApiRestaurante\\ApiRestaurante.csproj",
+      "projectUniqueName": "C:\\Users\\gabri\\OneDrive\\Escritorio\\api restaurante\\Api-Restaurante\\ApiRestaurante\\ApiRestaurante.csproj",
       "projectName": "ApiRestaurante",
-      "projectPath": "C:\\Users\\teresita\\source\\repos\\Api-Restaurante\\ApiRestaurante\\ApiRestaurante.csproj",
-      "packagesPath": "C:\\Users\\teresita\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\teresita\\source\\repos\\Api-Restaurante\\ApiRestaurante\\obj\\",
+      "projectPath": "C:\\Users\\gabri\\OneDrive\\Escritorio\\api restaurante\\Api-Restaurante\\ApiRestaurante\\ApiRestaurante.csproj",
+      "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\gabri\\OneDrive\\Escritorio\\api restaurante\\Api-Restaurante\\ApiRestaurante\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\teresita\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\gabri\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2440,17 +2440,18 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\sdk\\7.0.302\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\teresita\\source\\repos\\Api-Restaurante\\LibreriaDeClases\\AccesoModelos.csproj": {
-              "projectPath": "C:\\Users\\teresita\\source\\repos\\Api-Restaurante\\LibreriaDeClases\\AccesoModelos.csproj"
+            "C:\\Users\\gabri\\OneDrive\\Escritorio\\api restaurante\\Api-Restaurante\\LibreriaDeClases\\AccesoModelos.csproj": {
+              "projectPath": "C:\\Users\\gabri\\OneDrive\\Escritorio\\api restaurante\\Api-Restaurante\\LibreriaDeClases\\AccesoModelos.csproj"
             },
-            "C:\\Users\\teresita\\source\\repos\\Api-Restaurante\\LogicaDeNegocio\\LogicaDeNegocio.csproj": {
-              "projectPath": "C:\\Users\\teresita\\source\\repos\\Api-Restaurante\\LogicaDeNegocio\\LogicaDeNegocio.csproj"
+            "C:\\Users\\gabri\\OneDrive\\Escritorio\\api restaurante\\Api-Restaurante\\LogicaDeNegocio\\LogicaDeNegocio.csproj": {
+              "projectPath": "C:\\Users\\gabri\\OneDrive\\Escritorio\\api restaurante\\Api-Restaurante\\LogicaDeNegocio\\LogicaDeNegocio.csproj"
             }
           }
         }
@@ -2499,7 +2500,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   },

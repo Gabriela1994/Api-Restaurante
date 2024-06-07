@@ -18,6 +18,7 @@ namespace ApiRestaurante.Controllers
         {
             _context = context;
         }
+
         // GET: IngredienteController
         [HttpGet]
         [Route("api/ingredientes/lista")]
@@ -43,17 +44,12 @@ namespace ApiRestaurante.Controllers
         [HttpPost]
         //[ValidateAntiForgeryToken]
         [Route("api/ingredientes/crear")]
-        public void Create(IngredienteCustom data_ingrediente)
+        public void Create([FromBody] IngredienteCustom data_ingrediente)
         {
-            try
-            {
+            
                 LogicaIngredientes ingredientes = new LogicaIngredientes(_context);
                 ingredientes.CrearUnIngrediente(data_ingrediente);                
-            }
-            catch
-            {
-                Response.StatusCode = 404;
-            }
+            
         }
 
         // GET: IngredienteController/Edit/5
@@ -66,10 +62,10 @@ namespace ApiRestaurante.Controllers
         }
 
         // POST: IngredienteController/Edit/5
-        [HttpPost]
-        [Route("api/ingredientes/editar")]
+        [HttpPut]
+        [Route("api/ingredientes/editar/{id?}")]
         //[ValidateAntiForgeryToken]
-        public void Edit(IngredienteCustom data_ingrediente)
+        public void Edit([FromBody] IngredienteCustom data_ingrediente)
         {
             try
             {
@@ -84,8 +80,8 @@ namespace ApiRestaurante.Controllers
         }
 
         // GET: IngredienteController/Delete/5
-        [HttpGet]
-        [Route("api/ingredientes/eliminar")]
+        [HttpDelete]
+        [Route("api/ingredientes/eliminar/{id?}")]
         public void Delete(int id)
         {
             LogicaIngredientes ingredientes = new LogicaIngredientes(_context);
@@ -105,6 +101,31 @@ namespace ApiRestaurante.Controllers
             {
                 return View();
             }
+        }
+
+        [HttpGet]
+        [Route("api/ingredientes/lista-faltantes")]
+        public List<Ingrediente> ListaIngredientesFaltantes()
+        {
+            IngredienteRepository ingredientes = new IngredienteRepository(_context);
+            return ingredientes.ListaIngredientesFaltantes();
+            
+        }        
+        [HttpGet]
+        [Route("api/ingredientes/lista-poco-stock")]
+        public List<Ingrediente> ListaIngredientesConPocoStock()
+        {
+            IngredienteRepository ingredientes = new IngredienteRepository(_context);
+            return ingredientes.ListaIngredienteConPocoStock();
+            
+        }        
+        
+        [HttpGet]
+        [Route("api/ingredientes/ingredientes-por-producto/{id?}")]
+        public List<IngredientePorProducto> IngredientesPorProducto(int id)
+        {
+            IngredienteRepository ingredientes = new IngredienteRepository(_context);
+            return ingredientes.ListaDeIngredientesPorHamburguesa(id);            
         }
     }
 }

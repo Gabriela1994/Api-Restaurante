@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "bso42bIqxIFgvKV7TNhliBUvmODF6geLmSn9OqeQfWPAxvBKguPinD6E17SwCAWxJqFHRaaW8GbTTe+Fn1M73w==",
+  "dgSpecHash": "z7KGNjmzno5lbQKF8OyRTojTRN9XI9dp9uzE6PvyqALWK9YZstzkb0/SvCzcGm+RH4uByT/qmpd7kIhsGq7zkw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\teresita\\source\\repos\\Api-Restaurante\\LibreriaDeClases\\AccesoModelos.csproj",
+  "projectFilePath": "C:\\Users\\gabri\\OneDrive\\Escritorio\\api restaurante\\Api-Restaurante\\LibreriaDeClases\\AccesoModelos.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\teresita\\.nuget\\packages\\nswag.annotations\\14.0.7\\nswag.annotations.14.0.7.nupkg.sha512"
+    "C:\\Users\\gabri\\.nuget\\packages\\nswag.annotations\\14.0.7\\nswag.annotations.14.0.7.nupkg.sha512"
   ],
   "logs": []
 }

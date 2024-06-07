@@ -30,7 +30,6 @@ namespace AccesoDatos.Repositorios
                                        {
                                            Id = p.Id,
                                            Nombre_producto = p.Nombre_producto,
-                                           IdCategoria = p.Categoria.Id,
                                            Nombre_categoria = c.Nombre,
                                            Precio = p.Precio,
                                            Descripcion = p.Descripcion,
@@ -43,6 +42,7 @@ namespace AccesoDatos.Repositorios
 
         public int CrearUnProducto(Producto value_producto)
         {
+
             Producto producto = new Producto();
             IngredienteProducto ingredientes = new IngredienteProducto();
 
@@ -54,17 +54,23 @@ namespace AccesoDatos.Repositorios
                 _context.SaveChanges();
             return producto.Id;
         }        
-        public void CrearUnProductoNN(int idProducto, int idIngrediente)
+        public void CrearUnProductoNN(int idProducto, List<Ingrediente> lista_ingredientes)
         {
-            IngredienteProducto producto = new IngredienteProducto();
 
-            using (_context)
-            {
-                producto.IdProducto = idProducto;
-                producto.IdIngrediente = idIngrediente;
-                _context.Add(producto);
+                List<IngredienteProducto> ingredientes_obtenidos = new List<IngredienteProducto>();
+
+                for (int i = 0; i < lista_ingredientes.Count; i++)
+                {
+                    ingredientes_obtenidos.Add(new IngredienteProducto
+                    {
+                        IdProducto = idProducto,
+                        IdIngrediente = lista_ingredientes[i].Id
+                    });
+                }
+                Console.WriteLine(ingredientes_obtenidos);
+
+                _context.IngredienteXProducto.AddRange(ingredientes_obtenidos);
                 _context.SaveChanges();
-            }
         }
         public Producto BuscarProductoPorId(int idProducto)
         {

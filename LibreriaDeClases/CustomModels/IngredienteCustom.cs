@@ -18,9 +18,8 @@ namespace AccesoModelos.CustomModels
         public double Precio { get; set; }
         public int Stock { get; set; }
 
-        public IngredienteCustom(int id, string nombre, double precio, int stock)
+        public IngredienteCustom(string nombre, double precio, int stock)
         {
-            Id = id;
             Nombre = nombre;
             Precio = precio;
             Stock = stock;
@@ -33,7 +32,7 @@ namespace AccesoModelos.CustomModels
 
         public class ListarIngredientes : IngredienteCustom
         {
-            public bool Disponibilidad { get; set; }
+            public string Disponibilidad { get; set; }
 
             public ListarIngredientes(int id, string nombre, double precio, int stock)
             {
@@ -42,8 +41,20 @@ namespace AccesoModelos.CustomModels
                     Nombre = nombre;
                     Precio = precio;
                     Stock = stock;
-                    Disponibilidad = Stock != 0 ? true : false;
+                    Disponibilidad = Stock != 0 ? "Disponible" : "No disponible";
                 }
             }
         }
+
+
+    public class IngredientePorProducto
+    {
+        public int Id { get; set; }
+        public string Nombre { get; set; }
+
+        public IngredientePorProducto()
+        {
+
+        }
     }
+}
